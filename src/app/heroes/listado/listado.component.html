@@ -1,0 +1,24 @@
+<section class="center">
+   <h1>Listado de Heroes</h1>
+   <section>
+      <h2 *ngIf="arrayBorrados.length!==0;else noBorrados">Heroes Borrados</h2>
+      <p *ngFor="let item of arrayBorrados">
+         {{item}}
+      </p>
+   </section>
+   <ng-template #noBorrados>
+      No ha borrado heroes!
+   </ng-template>
+
+   <br>
+   <hr>
+   <br>
+   <section>
+      <ul *ngFor="let heroe of listado_heroes; let i=index">
+         <li>{{i+1}} - {{heroe}}</li>
+      </ul>
+   </section>
+   <section>
+      <button (click)="borrarHeroe()">Borrar</button>
+   </section>
+</section>

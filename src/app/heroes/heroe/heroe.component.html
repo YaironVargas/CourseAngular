@@ -1,0 +1,25 @@
+<section class="container">
+   <h1>Heroe Component Work</h1>
+   <dl class="dl">
+      <dt>Nombre:</dt>
+      <dd>{{nombre}}</dd>
+   </dl>
+   <dl class="dl">
+      <dt>Edad:</dt>
+      <dd>{{edad}}</dd>
+   </dl>
+   <dl class="dl">
+      <dt>Data:</dt>
+      <dd>{{obtenerNombre()}}</dd>
+   </dl>
+   <dl class="dl">
+      <dt>Capitalizado:</dt>
+      <dd>{{capitalizarName}}</dd>
+   </dl>
+   <br>
+   <section>
+      <button (click)="cambiarNombre()">Cambiar Héroe</button>
+      <button (click)="cambiarEdad()">Cambiar Edad</button>
+   </section>
+
+</section>

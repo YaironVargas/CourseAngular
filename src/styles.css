@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+button {
+   background-color: black;
+   border-radius   : 5px;
+   border          : 0px;
+   color           : white;
+   cursor          : pointer;
+   margin-right    : 5px;
+   margin-left     : 5px;
+   padding         : 10px 25px;
+   font-size       : 18px;
+ }
+ 
+ button:hover {
+   background-color: #3e4144;
+ }
+ 
+ .button2 {
+   background-color: transparent;
+   border-radius: 5px;
+   border       : 0px;
+   color        : black;
+   cursor       : pointer;
+   margin-right : 5px;
+   margin-left  : 5px;
+   padding      : 10px 25px;
+   font-size    : 18px;
+ }
+ .button2:hover{
+   background-color: #31314e2c;
+ }
+ button:focus {
+   outline: none;
+ }
+ .center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

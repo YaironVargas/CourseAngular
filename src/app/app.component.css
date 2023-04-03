@@ -1,0 +1,13 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 200;
+}
+
+html,
+body {
+
+  background            : #e8e8ff;
+  margin                : 20px;
+  color                 : #31314e;
+  -webkit-font-smoothing: antialiased;
+}

@@ -1,0 +1,11 @@
+<main class="container">
+  <h1>Contador App</h1>
+  <h3>la base es: <strong>{{base}}</strong></h3>
+  <section class="cont-container">
+    <h1 class="cont">{{cont}}</h1>
+    <section class="buttons-containers">
+      <button class="button2" (click)="acumulador(-base)">Disminuir -{{base}}</button>
+      <button class="button" (click)="acumulador(+base)">Aumentar +{{base}}</button>
+    </section>
+  </section>
+</main>

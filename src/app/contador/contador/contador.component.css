@@ -1,0 +1,27 @@
+
+ dd {
+   font-weight: bold;
+ }
+ 
+
+ 
+ .p-1 {
+   padding: 1px;
+ }
+ 
+ .cont-container {
+   display       : flex;
+   flex-direction: column;
+   align-items   : center;
+   gap           : 10px;
+ }
+ 
+ .container {
+   display       : flex;
+   flex-direction: column;
+   align-items   : center;
+ }
+ 
+ .cont {
+   color: red
+ }
